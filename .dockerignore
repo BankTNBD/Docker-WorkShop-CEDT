@@ -6,3 +6,17 @@
 # here, or the image will build without seed data paths being reachable.
 #
 # (Fill in the list below.)
+# Dependencies
+node_modules
+npm-debug.log
+
+# Version Control
+.git
+.github/
+
+# Environment and Secrets
+.env
+
+# Docker-related files
+Dockerfile
+.dockerignore
